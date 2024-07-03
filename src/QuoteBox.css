@@ -2,9 +2,9 @@
     width: 50%;
     padding: 20px;
     margin: 20% auto;
-    border: 1px solid black;
     border-radius: 20px;
     font-family: "Open Sans";
+    font-size: 30px;
 }
 
 #text, #author {
@@ -25,9 +25,11 @@
     text-decoration: none;
     cursor: pointer;
     font-family: "Open Sans";
-    font-size: medium;
+    font-size: 21px;
     border-radius: 10px;
-    height: 30px;
+    padding: 5px;
+    height: 100%;
+    margin: auto;
 }
 
 #tweet-text {
@@ -35,4 +37,13 @@
     justify-content: center;
     flex-direction: column;
     height: 100%;
+}
+
+#icon-wrapper {
+    padding: 0px 5px 10px 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #quote-box { font-size: 14px; }
+    #new-quote, #tweet-quote { font-size: 10px; }
 }
