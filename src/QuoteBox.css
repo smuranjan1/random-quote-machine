@@ -54,6 +54,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-    #quote-box { font-size: 14px; }
-    #new-quote, #tweet-quote { font-size: 10px; }
+    #quote-box { font-size: 18px; width: 70%; }
+    #new-quote, #tweet-quote { font-size: 14px; }
+}
+
+@media only screen and (min-width: 1600px) {
+    #quote-box { font-size: 40px; width: 70%; }
+    #new-quote, #tweet-quote { font-size: 30px; }
 }
