@@ -12,6 +12,11 @@
     text-align: center;
 }
 
+#author {
+    font-weight: bold;
+    font-style: oblique;
+}
+
 #button-container {
     display: flex;
     justify-content: space-evenly;
