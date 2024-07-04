@@ -1,22 +1,63 @@
-export const colorPalettes = [
-    { colors: ["#d1d1d1", "#e1dbd6", "#e2e2e2", "#f9f6f2", "#ffffff"] },
-    { colors: ["#ffc09f", "#ffee93", "#fcf5c7", "#a0ced9", "#adf7b6"] },
-    { colors: ["#809bce", "#95b8d1", "#b8e0d2", "#d6eadf", "#eac4d5"] },
-    { colors: ["#e8d1c5", "#eddcd2", "#fff1e6", "#f0efeb", "#eeddd3"] },
-    { colors: ["#e8dff5", "#fce1e4", "#fcf4dd", "#ddedea", "#daeaf6"] },
-    { colors: ["#d4afb9", "#d1cfe2", "#9cadce", "#7ec4cf", "#52b2cf"] },
-    { colors: ["#d3ab9e", "#eac9c1", "#ebd8d0", "#fffbff", "#fefeff"] },
-    { colors: ["#ffe5ec", "#ffc2d1", "#ffb3c6", "#ff8fab", "#fb6f92"] },
-    { colors: ["#79addc", "#ffc09f", "#ffee93", "#fcf5c7", "#adf7b6"] },
-    { colors: ["#ffffff", "#84dcc6", "#a5ffd6", "#ffa69e", "#ff686b"] },
-    { colors: ["#61f4de", "#65cbe9", "#68b6ef", "#6c8dfa", "#6e78ff"] },
-    { colors: ["#ff7477", "#e69597", "#ceb5b7", "#b5d6d6", "#9cf6f6"] },
-    { colors: ["#f49097", "#dfb2f4", "#f5e960", "#f2f5ff", "#55d6c2"] },
-    { colors: ["#e27396", "#ea9ab2", "#efcfe3", "#eaf2d7", "#b3dee2"] },
-    { colors: ["#ffccd5", "#ffdfd3", "#ffd6a5", "#fdffb6", "#caffbf"] },
-    { colors: ["#ffadad", "#ffd6a5", "#fdffb6", "#caffbf", "#9bf6ff"] },
-    { colors: ["#a2d2ff", "#cdb4db", "#ffafcc", "#ffc8dd", "#bde0fe"] },
-    { colors: ["#ffc6ff", "#ffdebb", "#ffcad4", "#fffffc", "#c2e5d3"] },
-    { colors: ["#d8e2dc", "#ffe5d9", "#ffcad4", "#f4acb7", "#9d8189"] },
-    { colors: ["#d4a5a5", "#ffc6ff", "#ffebcc", "#c5d7bd", "#bde0fe"] }
-];
+export const colorSchemes = [
+    {
+      color: '#16a085',
+      lighterColor: '#89d0bc',
+      textColor: '#000'
+    },
+    {
+      color: '#27ae60',
+      lighterColor: '#93d8a2',
+      textColor: '#000'
+    },
+    {
+      color: '#2c3e50',
+      lighterColor: '#969ea5',
+      textColor: '#fff'
+    },
+    {
+      color: '#f39c12',
+      lighterColor: '#f9cca5',
+      textColor: '#000'
+    },
+    {
+      color: '#e74c3c',
+      lighterColor: '#f3a39e',
+      textColor: '#000'
+    },
+    {
+        color: '#472E32',
+        lighterColor: '#a39597',
+        textColor: '#fff'
+    },
+    {
+      color: '#9b59b6',
+      lighterColor: '#ceb2db',
+      textColor: '#000'
+    },
+    {
+      color: '#FB6964',
+      lighterColor: '#fdb4b1',
+      textColor: '#000'
+    },
+    {
+      color: '#342224',
+      lighterColor: '#999191',
+      textColor: '#fff'
+    },
+    {
+      color: '#BDBB99',
+      lighterColor: '#deddd0',
+      textColor: '#000'
+    },
+    {
+      color: '#77B1A9',
+      lighterColor: '#bbd8d4',
+      textColor: '#000'
+    },
+    {
+      color: '#73A857',
+      lighterColor: '#b9d4a2',
+      textColor: '#000'
+    }
+  ];
+  

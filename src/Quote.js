@@ -6,12 +6,12 @@ export function Quote (props) {
     return(
         <>
             <p id="text"> 
-                <span id="icon-wrapper">
-                    <FontAwesomeIcon icon={faQuoteLeft} />
+                <span className="icon-wrapper" >
+                    <FontAwesomeIcon icon={faQuoteLeft}  className="quote-icon"/>
                 </span>
                 {props.quote}
-                <span id="icon-wrapper">
-                    <FontAwesomeIcon icon={faQuoteRight} />
+                <span className="icon-wrapper" >
+                    <FontAwesomeIcon icon={faQuoteRight}  className="quote-icon"/>
                 </span>
             </p>
             <p id="author">— {props.author}</p>
